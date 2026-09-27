@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250" width="800" height="250" role="img" aria-labelledby="t d">
+<title id="t">Binary search tree traversals</title>
+<desc id="d">A binary search tree with root 8 and its pre-order, in-order and post-order traversals. In-order is sorted.</desc>
+<defs>
+<style>
+.bg{fill:#F6F8FA;stroke:#D0D7DE}
+.ink{stroke:#1F2328}
+.fk{fill:#1F2328}
+.cell{fill:#FFFFFF}
+.sep{stroke:#D0D7DE}
+.t{fill:#1F2328}
+.m{fill:#59636E}
+.on{fill:#1F2328}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.a1{fill:#9DB1FF}
+.a2{fill:#FFA48C}
+.a3{fill:#FFD36E}
+.a4{fill:#CDAEFF}
+.dim{opacity:.28}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161B22;stroke:#30363D}
+.ink{stroke:#E6EDF3}
+.fk{fill:#E6EDF3}
+.cell{fill:#0D1117}
+.sep{stroke:#30363D}
+.t{fill:#E6EDF3}
+.m{fill:#9198A1}
+}
+</style>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,1 L10,5 L0,9 Z" class="fk"/></marker>
+<marker id="as" viewBox="0 0 10 10" refX="2" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M10,1 L0,5 L10,9 Z" class="fk"/></marker>
+</defs>
+<rect x="1" y="1" width="798" height="248" rx="16" class="bg" stroke-width="1.5"/>
+<line x1="173.6" y1="66.7" x2="126.4" y2="109.3" class="ink" stroke-width="2" stroke-linecap="round"/>
+<line x1="206.4" y1="66.7" x2="253.6" y2="109.3" class="ink" stroke-width="2" stroke-linecap="round"/>
+<line x1="98.3" y1="142.7" x2="76.7" y2="177.3" class="ink" stroke-width="2" stroke-linecap="round"/>
+<line x1="121.7" y1="142.7" x2="143.3" y2="177.3" class="ink" stroke-width="2" stroke-linecap="round"/>
+<line x1="258.3" y1="142.7" x2="236.7" y2="177.3" class="ink" stroke-width="2" stroke-linecap="round"/>
+<line x1="281.7" y1="142.7" x2="303.3" y2="177.3" class="ink" stroke-width="2" stroke-linecap="round"/>
+<circle cx="190" cy="52" r="22" class="a3 ink" stroke-width="2"/>
+<text x="190" y="52" class="mono on" font-size="16" text-anchor="middle" dominant-baseline="central" font-weight="600">8</text>
+<circle cx="110" cy="124" r="22" class="a1 ink" stroke-width="2"/>
+<text x="110" y="124" class="mono on" font-size="16" text-anchor="middle" dominant-baseline="central" font-weight="600">4</text>
+<circle cx="270" cy="124" r="22" class="a1 ink" stroke-width="2"/>
+<text x="270" y="124" class="mono on" font-size="16" text-anchor="middle" dominant-baseline="central" font-weight="600">12</text>
+<circle cx="65" cy="196" r="22" class="a1 ink" stroke-width="2"/>
+<text x="65" y="196" class="mono on" font-size="16" text-anchor="middle" dominant-baseline="central" font-weight="600">2</text>
+<circle cx="155" cy="196" r="22" class="a1 ink" stroke-width="2"/>
+<text x="155" y="196" class="mono on" font-size="16" text-anchor="middle" dominant-baseline="central" font-weight="600">6</text>
+<circle cx="225" cy="196" r="22" class="a1 ink" stroke-width="2"/>
+<text x="225" y="196" class="mono on" font-size="16" text-anchor="middle" dominant-baseline="central" font-weight="600">10</text>
+<circle cx="315" cy="196" r="22" class="a1 ink" stroke-width="2"/>
+<text x="315" y="196" class="mono on" font-size="16" text-anchor="middle" dominant-baseline="central" font-weight="600">14</text>
+<line x1="390" y1="36" x2="390" y2="214" class="sep" stroke-width="1.5" stroke-linecap="round"/>
+<text x="424" y="72" class="sans t" font-size="15" text-anchor="start" dominant-baseline="central" font-weight="600">pre-order</text>
+<rect x="540" y="57" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="555" y="72" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">8</text>
+<rect x="572" y="57" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="587" y="72" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">4</text>
+<rect x="604" y="57" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="619" y="72" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">2</text>
+<rect x="636" y="57" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="651" y="72" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">6</text>
+<rect x="668" y="57" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="683" y="72" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">12</text>
+<rect x="700" y="57" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="715" y="72" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">10</text>
+<rect x="732" y="57" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="747" y="72" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">14</text>
+<text x="424" y="124" class="sans t" font-size="15" text-anchor="start" dominant-baseline="central" font-weight="600">in-order</text>
+<rect x="540" y="109" width="30" height="30" rx="5" class="a3 ink" stroke-width="1.5"/>
+<text x="555" y="124" class="mono on" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">2</text>
+<rect x="572" y="109" width="30" height="30" rx="5" class="a3 ink" stroke-width="1.5"/>
+<text x="587" y="124" class="mono on" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">4</text>
+<rect x="604" y="109" width="30" height="30" rx="5" class="a3 ink" stroke-width="1.5"/>
+<text x="619" y="124" class="mono on" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">6</text>
+<rect x="636" y="109" width="30" height="30" rx="5" class="a3 ink" stroke-width="1.5"/>
+<text x="651" y="124" class="mono on" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">8</text>
+<rect x="668" y="109" width="30" height="30" rx="5" class="a3 ink" stroke-width="1.5"/>
+<text x="683" y="124" class="mono on" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">10</text>
+<rect x="700" y="109" width="30" height="30" rx="5" class="a3 ink" stroke-width="1.5"/>
+<text x="715" y="124" class="mono on" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">12</text>
+<rect x="732" y="109" width="30" height="30" rx="5" class="a3 ink" stroke-width="1.5"/>
+<text x="747" y="124" class="mono on" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">14</text>
+<text x="424" y="176" class="sans t" font-size="15" text-anchor="start" dominant-baseline="central" font-weight="600">post-order</text>
+<rect x="540" y="161" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="555" y="176" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">2</text>
+<rect x="572" y="161" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="587" y="176" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">6</text>
+<rect x="604" y="161" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="619" y="176" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">4</text>
+<rect x="636" y="161" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="651" y="176" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">10</text>
+<rect x="668" y="161" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="683" y="176" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">14</text>
+<rect x="700" y="161" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="715" y="176" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">12</text>
+<rect x="732" y="161" width="30" height="30" rx="5" class="cell ink" stroke-width="1.5"/>
+<text x="747" y="176" class="mono t" font-size="13" text-anchor="middle" dominant-baseline="central" font-weight="600">8</text>
+<text x="424" y="222" class="sans m" font-size="13" text-anchor="start" dominant-baseline="central">in-order visits a BST in sorted order</text>
+</svg>

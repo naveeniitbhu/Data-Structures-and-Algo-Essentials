@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 216" width="800" height="216" role="img" aria-labelledby="t d">
+<title id="t">Linked list</title>
+<desc id="d">Singly linked list 1 to 5 ending in null, with slow and fast pointers one node apart.</desc>
+<defs>
+<style>
+.bg{fill:#F6F8FA;stroke:#D0D7DE}
+.ink{stroke:#1F2328}
+.fk{fill:#1F2328}
+.cell{fill:#FFFFFF}
+.sep{stroke:#D0D7DE}
+.t{fill:#1F2328}
+.m{fill:#59636E}
+.on{fill:#1F2328}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.a1{fill:#9DB1FF}
+.a2{fill:#FFA48C}
+.a3{fill:#FFD36E}
+.a4{fill:#CDAEFF}
+.dim{opacity:.28}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161B22;stroke:#30363D}
+.ink{stroke:#E6EDF3}
+.fk{fill:#E6EDF3}
+.cell{fill:#0D1117}
+.sep{stroke:#30363D}
+.t{fill:#E6EDF3}
+.m{fill:#9198A1}
+}
+</style>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,1 L10,5 L0,9 Z" class="fk"/></marker>
+<marker id="as" viewBox="0 0 10 10" refX="2" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M10,1 L0,5 L10,9 Z" class="fk"/></marker>
+</defs>
+<rect x="1" y="1" width="798" height="214" rx="16" class="bg" stroke-width="1.5"/>
+<path d="M98,78 H138 V122 H98 Q90,122 90,114 V86 Q90,78 98,78 Z" class="a1"/>
+<rect x="90" y="78" width="76" height="44" rx="8" fill="none" class="ink" stroke-width="2"/>
+<line x1="138" y1="78" x2="138" y2="122" class="ink" stroke-width="2" stroke-linecap="round"/>
+<text x="114.0" y="100.0" class="mono on" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<circle cx="152.0" cy="100.0" r="4" class="fk"/>
+<line x1="152.0" y1="100.0" x2="204" y2="100.0" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M214,78 H254 V122 H214 Q206,122 206,114 V86 Q206,78 214,78 Z" class="a1"/>
+<rect x="206" y="78" width="76" height="44" rx="8" fill="none" class="ink" stroke-width="2"/>
+<line x1="254" y1="78" x2="254" y2="122" class="ink" stroke-width="2" stroke-linecap="round"/>
+<text x="230.0" y="100.0" class="mono on" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">2</text>
+<circle cx="268.0" cy="100.0" r="4" class="fk"/>
+<line x1="268.0" y1="100.0" x2="320" y2="100.0" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M330,78 H370 V122 H330 Q322,122 322,114 V86 Q322,78 330,78 Z" class="a1"/>
+<rect x="322" y="78" width="76" height="44" rx="8" fill="none" class="ink" stroke-width="2"/>
+<line x1="370" y1="78" x2="370" y2="122" class="ink" stroke-width="2" stroke-linecap="round"/>
+<text x="346.0" y="100.0" class="mono on" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">3</text>
+<circle cx="384.0" cy="100.0" r="4" class="fk"/>
+<line x1="384.0" y1="100.0" x2="436" y2="100.0" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M446,78 H486 V122 H446 Q438,122 438,114 V86 Q438,78 446,78 Z" class="a1"/>
+<rect x="438" y="78" width="76" height="44" rx="8" fill="none" class="ink" stroke-width="2"/>
+<line x1="486" y1="78" x2="486" y2="122" class="ink" stroke-width="2" stroke-linecap="round"/>
+<text x="462.0" y="100.0" class="mono on" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">4</text>
+<circle cx="500.0" cy="100.0" r="4" class="fk"/>
+<line x1="500.0" y1="100.0" x2="552" y2="100.0" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M562,78 H602 V122 H562 Q554,122 554,114 V86 Q554,78 562,78 Z" class="a1"/>
+<rect x="554" y="78" width="76" height="44" rx="8" fill="none" class="ink" stroke-width="2"/>
+<line x1="602" y1="78" x2="602" y2="122" class="ink" stroke-width="2" stroke-linecap="round"/>
+<text x="578.0" y="100.0" class="mono on" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">5</text>
+<circle cx="616.0" cy="100.0" r="4" class="fk"/>
+<line x1="616.0" y1="100.0" x2="670" y2="100.0" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="676" y="100.0" class="mono m" font-size="16" text-anchor="start" dominant-baseline="central">null</text>
+<text x="114.0" y="34" class="sans t" font-size="14" text-anchor="middle" dominant-baseline="central" font-weight="600">head</text>
+<line x1="114.0" y1="44" x2="114.0" y2="75" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="201.6" y="146" width="56.7" height="24" rx="12" class="a3 ink" stroke-width="1.5"/>
+<text x="230.0" y="158" class="sans on" font-size="14" text-anchor="middle" dominant-baseline="central" font-weight="600">slow</text>
+<line x1="230.0" y1="146" x2="230.0" y2="125" class="ink" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="317.6" y="146" width="56.7" height="24" rx="12" class="a2 ink" stroke-width="1.5"/>
+<text x="346.0" y="158" class="sans on" font-size="14" text-anchor="middle" dominant-baseline="central" font-weight="600">fast</text>
+<line x1="346.0" y1="146" x2="346.0" y2="125" class="ink" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="400" y="196" class="sans m" font-size="13" text-anchor="middle" dominant-baseline="central">slow moves one node per step, fast moves two</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-labelledby="t d">
+<title id="t">Suggested learning path</title>
+<desc id="d">Five stages: arrays and strings, linear structures, recursion, non-linear structures, optimization.</desc>
+<defs>
+<style>
+.bg{fill:#F6F8FA;stroke:#D0D7DE}
+.ink{stroke:#1F2328}
+.fk{fill:#1F2328}
+.cell{fill:#FFFFFF}
+.sep{stroke:#D0D7DE}
+.t{fill:#1F2328}
+.m{fill:#59636E}
+.on{fill:#1F2328}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.a1{fill:#9DB1FF}
+.a2{fill:#FFA48C}
+.a3{fill:#FFD36E}
+.a4{fill:#CDAEFF}
+.dim{opacity:.28}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161B22;stroke:#30363D}
+.ink{stroke:#E6EDF3}
+.fk{fill:#E6EDF3}
+.cell{fill:#0D1117}
+.sep{stroke:#30363D}
+.t{fill:#E6EDF3}
+.m{fill:#9198A1}
+}
+</style>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,1 L10,5 L0,9 Z" class="fk"/></marker>
+<marker id="as" viewBox="0 0 10 10" refX="2" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M10,1 L0,5 L10,9 Z" class="fk"/></marker>
+</defs>
+<rect x="1" y="1" width="998" height="248" rx="16" class="bg" stroke-width="1.5"/>
+<line x1="146" y1="68" x2="267" y2="68" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="341" y1="68" x2="462" y2="68" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="536" y1="68" x2="657" y2="68" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="731" y1="68" x2="852" y2="68" class="ink" stroke-width="2" stroke-linecap="round" marker-end="url(#ah)"/>
+<circle cx="110" cy="68" r="26" class="a3 ink" stroke-width="2"/>
+<text x="110" y="68" class="sans on" font-size="20" text-anchor="middle" dominant-baseline="central" font-weight="800">1</text>
+<text x="110" y="126" class="sans t" font-size="17" text-anchor="middle" dominant-baseline="central" font-weight="700">Arrays &amp; strings</text>
+<text x="110" y="158" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Sorting</text>
+<text x="110" y="180" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Two Pointers</text>
+<text x="110" y="202" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Sliding Window</text>
+<text x="110" y="224" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Binary Search</text>
+<circle cx="305" cy="68" r="26" class="a1 ink" stroke-width="2"/>
+<text x="305" y="68" class="sans on" font-size="20" text-anchor="middle" dominant-baseline="central" font-weight="800">2</text>
+<text x="305" y="126" class="sans t" font-size="17" text-anchor="middle" dominant-baseline="central" font-weight="700">Linear structures</text>
+<text x="305" y="158" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Linked List</text>
+<text x="305" y="180" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Heap</text>
+<circle cx="500" cy="68" r="26" class="a4 ink" stroke-width="2"/>
+<text x="500" y="68" class="sans on" font-size="20" text-anchor="middle" dominant-baseline="central" font-weight="800">3</text>
+<text x="500" y="126" class="sans t" font-size="17" text-anchor="middle" dominant-baseline="central" font-weight="700">Recursion</text>
+<text x="500" y="158" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Backtracking</text>
+<circle cx="695" cy="68" r="26" class="a2 ink" stroke-width="2"/>
+<text x="695" y="68" class="sans on" font-size="20" text-anchor="middle" dominant-baseline="central" font-weight="800">4</text>
+<text x="695" y="126" class="sans t" font-size="17" text-anchor="middle" dominant-baseline="central" font-weight="700">Non-linear</text>
+<text x="695" y="158" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Trees</text>
+<text x="695" y="180" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Graphs</text>
+<circle cx="890" cy="68" r="26" class="a3 ink" stroke-width="2"/>
+<text x="890" y="68" class="sans on" font-size="20" text-anchor="middle" dominant-baseline="central" font-weight="800">5</text>
+<text x="890" y="126" class="sans t" font-size="17" text-anchor="middle" dominant-baseline="central" font-weight="700">Optimization</text>
+<text x="890" y="158" class="sans m" font-size="14" text-anchor="middle" dominant-baseline="central">Dynamic Programming</text>
+</svg>

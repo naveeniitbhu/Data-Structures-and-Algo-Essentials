@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 248" width="800" height="248" role="img" aria-labelledby="t d">
+<title id="t">Dynamic programming</title>
+<desc id="d">Unique Paths table: each cell is the sum of the cell above and the cell to the left; the bottom-right cell holds 56.</desc>
+<defs>
+<style>
+.bg{fill:#F6F8FA;stroke:#D0D7DE}
+.ink{stroke:#1F2328}
+.fk{fill:#1F2328}
+.cell{fill:#FFFFFF}
+.sep{stroke:#D0D7DE}
+.t{fill:#1F2328}
+.m{fill:#59636E}
+.on{fill:#1F2328}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.a1{fill:#9DB1FF}
+.a2{fill:#FFA48C}
+.a3{fill:#FFD36E}
+.a4{fill:#CDAEFF}
+.dim{opacity:.28}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161B22;stroke:#30363D}
+.ink{stroke:#E6EDF3}
+.fk{fill:#E6EDF3}
+.cell{fill:#0D1117}
+.sep{stroke:#30363D}
+.t{fill:#E6EDF3}
+.m{fill:#9198A1}
+}
+</style>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,1 L10,5 L0,9 Z" class="fk"/></marker>
+<marker id="as" viewBox="0 0 10 10" refX="2" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M10,1 L0,5 L10,9 Z" class="fk"/></marker>
+</defs>
+<rect x="1" y="1" width="798" height="246" rx="16" class="bg" stroke-width="1.5"/>
+<rect x="72" y="44" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="96.0" y="64.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="120" y="44" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="144.0" y="64.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="168" y="44" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="192.0" y="64.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="216" y="44" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="240.0" y="64.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="264" y="44" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="288.0" y="64.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="312" y="44" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="336.0" y="64.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="72" y="84" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="96.0" y="104.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="120" y="84" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="144.0" y="104.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">2</text>
+<rect x="168" y="84" width="48" height="40" rx="0" class="a1 ink" stroke-width="1.5"/>
+<text x="192.0" y="104.0" class="mono on" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">3</text>
+<rect x="216" y="84" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="240.0" y="104.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">4</text>
+<rect x="264" y="84" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="288.0" y="104.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">5</text>
+<rect x="312" y="84" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="336.0" y="104.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">6</text>
+<rect x="72" y="124" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="96.0" y="144.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="120" y="124" width="48" height="40" rx="0" class="a1 ink" stroke-width="1.5"/>
+<text x="144.0" y="144.0" class="mono on" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">3</text>
+<rect x="168" y="124" width="48" height="40" rx="0" class="a3 ink" stroke-width="1.5"/>
+<text x="192.0" y="144.0" class="mono on" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">6</text>
+<rect x="216" y="124" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="240.0" y="144.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">10</text>
+<rect x="264" y="124" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="288.0" y="144.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">15</text>
+<rect x="312" y="124" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="336.0" y="144.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">21</text>
+<rect x="72" y="164" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="96.0" y="184.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+<rect x="120" y="164" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="144.0" y="184.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">4</text>
+<rect x="168" y="164" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="192.0" y="184.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">10</text>
+<rect x="216" y="164" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="240.0" y="184.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">20</text>
+<rect x="264" y="164" width="48" height="40" rx="0" class="cell ink" stroke-width="1.5"/>
+<text x="288.0" y="184.0" class="mono t" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">35</text>
+<rect x="312" y="164" width="48" height="40" rx="0" class="a2 ink" stroke-width="1.5"/>
+<text x="336.0" y="184.0" class="mono on" font-size="15" text-anchor="middle" dominant-baseline="central" font-weight="600">56</text>
+<rect x="72" y="44" width="288" height="160" rx="4" fill="none" class="ink" stroke-width="2"/>
+<line x1="192.0" y1="114.0" x2="192.0" y2="133.0" class="ink" stroke-width="1.75" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="154.0" y1="144.0" x2="181.0" y2="144.0" class="ink" stroke-width="1.75" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="216" y="226" class="sans m" font-size="13" text-anchor="middle" dominant-baseline="central">Unique Paths (62), 4 × 6 grid</text>
+<text x="420" y="70" class="sans t" font-size="16" text-anchor="start" dominant-baseline="central" font-weight="700">Fill the table once, reuse every answer</text>
+<text x="420" y="108" class="mono t" font-size="14" text-anchor="start" dominant-baseline="central">dp[i][j] = dp[i−1][j] + dp[i][j−1]</text>
+<text x="420" y="146" class="sans m" font-size="14" text-anchor="start" dominant-baseline="central">paths into a cell come from the cell</text>
+<text x="420" y="168" class="sans m" font-size="14" text-anchor="start" dominant-baseline="central">above it or the cell to its left</text>
+<text x="420" y="204" class="mono t" font-size="14" text-anchor="start" dominant-baseline="central" font-weight="600">answer: dp[3][5] = 56</text>
+</svg>

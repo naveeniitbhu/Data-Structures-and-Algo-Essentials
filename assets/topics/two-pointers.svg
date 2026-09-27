@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 214" width="800" height="214" role="img" aria-labelledby="t d">
+<title id="t">Two pointers</title>
+<desc id="d">Sorted array with a left pointer at 2 and a right pointer at 9 looking for a pair that sums to 10.</desc>
+<defs>
+<style>
+.bg{fill:#F6F8FA;stroke:#D0D7DE}
+.ink{stroke:#1F2328}
+.fk{fill:#1F2328}
+.cell{fill:#FFFFFF}
+.sep{stroke:#D0D7DE}
+.t{fill:#1F2328}
+.m{fill:#59636E}
+.on{fill:#1F2328}
+.sans{font-family:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,&quot;Liberation Mono&quot;,monospace}
+.a1{fill:#9DB1FF}
+.a2{fill:#FFA48C}
+.a3{fill:#FFD36E}
+.a4{fill:#CDAEFF}
+.dim{opacity:.28}
+@media (prefers-color-scheme:dark){
+.bg{fill:#161B22;stroke:#30363D}
+.ink{stroke:#E6EDF3}
+.fk{fill:#E6EDF3}
+.cell{fill:#0D1117}
+.sep{stroke:#30363D}
+.t{fill:#E6EDF3}
+.m{fill:#9198A1}
+}
+</style>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M0,1 L10,5 L0,9 Z" class="fk"/></marker>
+<marker id="as" viewBox="0 0 10 10" refX="2" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto"><path d="M10,1 L0,5 L10,9 Z" class="fk"/></marker>
+</defs>
+<rect x="1" y="1" width="798" height="212" rx="16" class="bg" stroke-width="1.5"/>
+<g>
+<rect x="160" y="70" width="60" height="52" rx="0" class="cell ink" stroke-width="2"/>
+<text x="190.0" y="96.0" class="mono t" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">1</text>
+</g>
+<g>
+<rect x="220" y="70" width="60" height="52" rx="0" class="a1 ink" stroke-width="2"/>
+<text x="250.0" y="96.0" class="mono on" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">2</text>
+</g>
+<g>
+<rect x="280" y="70" width="60" height="52" rx="0" class="cell ink" stroke-width="2"/>
+<text x="310.0" y="96.0" class="mono t" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">3</text>
+</g>
+<g>
+<rect x="340" y="70" width="60" height="52" rx="0" class="cell ink" stroke-width="2"/>
+<text x="370.0" y="96.0" class="mono t" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">4</text>
+</g>
+<g>
+<rect x="400" y="70" width="60" height="52" rx="0" class="cell ink" stroke-width="2"/>
+<text x="430.0" y="96.0" class="mono t" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">6</text>
+</g>
+<g>
+<rect x="460" y="70" width="60" height="52" rx="0" class="cell ink" stroke-width="2"/>
+<text x="490.0" y="96.0" class="mono t" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">8</text>
+</g>
+<g>
+<rect x="520" y="70" width="60" height="52" rx="0" class="a2 ink" stroke-width="2"/>
+<text x="550.0" y="96.0" class="mono on" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">9</text>
+</g>
+<g>
+<rect x="580" y="70" width="60" height="52" rx="0" class="cell ink" stroke-width="2"/>
+<text x="610.0" y="96.0" class="mono t" font-size="18" text-anchor="middle" dominant-baseline="central" font-weight="600">11</text>
+</g>
+<rect x="160" y="70" width="480" height="52" rx="6" fill="none" class="ink" stroke-width="2"/>
+<text x="160" y="32" class="mono t" font-size="15" text-anchor="start" dominant-baseline="central" font-weight="600">target = 10</text>
+<line x1="234.0" y1="54" x2="272.0" y2="54" class="ink" stroke-width="1.75" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="566.0" y1="54" x2="528.0" y2="54" class="ink" stroke-width="1.75" stroke-linecap="round" marker-end="url(#ah)"/>
+<rect x="232.0" y="142" width="36" height="24" rx="12" class="a1 ink" stroke-width="1.5"/>
+<text x="250.0" y="154" class="mono on" font-size="14" text-anchor="middle" dominant-baseline="central" font-weight="600">l</text>
+<rect x="532.0" y="142" width="36" height="24" rx="12" class="a2 ink" stroke-width="1.5"/>
+<text x="550.0" y="154" class="mono on" font-size="14" text-anchor="middle" dominant-baseline="central" font-weight="600">r</text>
+<line x1="250.0" y1="142" x2="250.0" y2="125" class="ink" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<line x1="550.0" y1="142" x2="550.0" y2="125" class="ink" stroke-width="1.5" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="400" y="192" class="mono m" font-size="14" text-anchor="middle" dominant-baseline="central">2 + 9 = 11 &gt; 10, so r moves left</text>
+</svg>
