@@ -90,14 +90,14 @@ function merge(left, right) {
 // Quicksort
 function quickSort(nums) {
   const n = nums.length;
-  let pivot = arr[nums.length - 1];
+  let pivot = nums[nums.length - 1];
   const left = [];
   const right = [];
   for (let i = 0; i < n - 1; i++) {
-    if (arr[i] < pivot) {
-      left.push(arr[i])
+    if (nums[i] < pivot) {
+      left.push(nums[i])
     } else {
-      right.push(arr[i])
+      right.push(nums[i])
     }
   }
   return [...quickSort(left), pivot, ...quickSort(right)]
@@ -105,7 +105,6 @@ function quickSort(nums) {
 
 function quickSortInPlace(nums, low, high) {
   if (low >= high) return;
-  const n = nums.length;
   const pIndex = partition(nums, low, high)
 
   quickSortInPlace(nums, low, pIndex - 1)
@@ -116,6 +115,7 @@ function quickSortInPlace(nums, low, high) {
 
 // all elems less than pivot on one side
 function partition(nums, low, high) {
+  const pivot = nums[high]
   let i = low;
   for (let j = low; j < high; j++) {
     if (nums[i] < pivot) {
