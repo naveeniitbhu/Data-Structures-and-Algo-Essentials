@@ -14,7 +14,6 @@ var numSubarraysWithSum = function (nums, goal) {
     for (let r = 0; r < n; r++) {
       if (nums[r] === 1) {
         oneCount++
-        zeroCount = 0
       }
       while (oneCount > k) {
         if (nums[l] === 1) {
