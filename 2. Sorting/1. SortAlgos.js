@@ -20,8 +20,8 @@ function findSmallest(nums, startIndex) {
 
 function bubbleSort(nums) {
   for (let i = 0; i < nums.length; i++) {
+    let swapped = false;
     for (let j = 0; j < nums.length - i - 1; j++) {
-      let swapped = false;
       if (nums[j] > nums[j + 1]) {
         [nums[j], nums[j + 1]] = [nums[j + 1], nums[j]]
         swapped = true;
@@ -52,6 +52,7 @@ function insertionSort(nums) {
 
 function mergeSort(nums) {
   // [5, 3, 2, 1, 6]
+  if (nums.length <= 1) return nums
   const n = nums.length;
   const mid = Math.floor(n / 2)
   const left = mergeSort(nums.slice(0, mid))
@@ -89,6 +90,7 @@ function merge(left, right) {
 
 // Quicksort
 function quickSort(nums) {
+  if (nums.length <= 1) return nums;
   const n = nums.length;
   let pivot = nums[nums.length - 1];
   const left = [];
@@ -118,7 +120,7 @@ function partition(nums, low, high) {
   const pivot = nums[high]
   let i = low;
   for (let j = low; j < high; j++) {
-    if (nums[i] < pivot) {
+    if (nums[j] < pivot) {
       [nums[i], nums[j]] = [nums[j], nums[i]]
       i++;
     }

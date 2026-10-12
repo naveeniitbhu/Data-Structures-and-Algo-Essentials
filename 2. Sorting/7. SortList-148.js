@@ -7,10 +7,10 @@
  */
 var sortList = function (head) {
   const arr = [];
-  let dummy = head;
-  while (dummy) {
-    arr.push(dummy.val)
-    dummy = dummy.next;
+  let curr = head;
+  while (curr) {
+    arr.push(curr.val)
+    curr = curr.next;
   }
   arr.sort((a, b) => a - b);
 

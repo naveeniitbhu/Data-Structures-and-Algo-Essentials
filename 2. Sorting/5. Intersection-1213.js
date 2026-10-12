@@ -14,7 +14,6 @@ function find_intersection(arr1, arr2, arr3) {
     const elem1 = arr1[p];
     const elem2 = arr2[q];
     const elem3 = arr3[r];
-    console.log(elem1, elem2, elem3)
     if (elem1 == elem2 && elem2 == elem3) {
       result.push(elem1)
       p++;
