@@ -13,6 +13,8 @@ const BinaryTreeNode = class {
  * @param {BinaryTreeNode_int32} root
  * @return {BinaryTreeNode_int32}
  */
+
+// Tip: Think one subset tree 
 function flip_upside_down(root) {
   if (!root || !root.left) {
     return root

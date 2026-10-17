@@ -33,8 +33,8 @@ function find_largest_bst(root) {
       ans = Math.max(ans, size);
       return {
         isBST: true,
-        min: Math.min(left.min, node.value),
-        max: Math.max(right.max, node.value),
+        min: Math.min(left.min, node.value), // left subtree can be empty
+        max: Math.max(right.max, node.value), // right subtree can be empty
         size: size
       }
     }
